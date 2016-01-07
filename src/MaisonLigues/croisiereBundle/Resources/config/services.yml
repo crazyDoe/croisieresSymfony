@@ -1,0 +1,7 @@
+parameters:
+#    maison_ligues_croisiere.example.class: MaisonLigues\croisiereBundle\Example
+
+services:
+#    maison_ligues_croisiere.example:
+#        class: %maison_ligues_croisiere.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

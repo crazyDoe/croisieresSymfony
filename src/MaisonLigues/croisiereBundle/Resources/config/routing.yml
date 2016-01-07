@@ -1,0 +1,57 @@
+maison_ligues_croisiere_index:
+    pattern:  /index
+    defaults: { _controller: MaisonLiguesCroisiereBundle:Default:index }
+
+maison_ligues_croisiere_ajoutBateau:
+    pattern:  /ajoutBateau
+    defaults: { _controller: MaisonLiguesCroisiereBundle:Default:ajoutBateau }
+
+maison_ligues_croisiere_ajoutLiaison:
+    pattern:  /ajoutLiaison
+    defaults: { _controller: MaisonLiguesCroisiereBundle:Default:ajoutLiaison }
+
+maison_ligues_croisiere_ajoutTraversee:
+    pattern:  /ajoutTraversee
+    defaults: { _controller: MaisonLiguesCroisiereBundle:Default:ajoutTraversee }
+
+maison_ligues_croisiere_ajoutPort:
+    pattern:  /ajoutPort
+    defaults: { _controller: MaisonLiguesCroisiereBundle:Default:ajoutPort }
+
+maison_ligues_croisiere_ajoutSecteur:
+    pattern:  /ajoutSecteur
+    defaults: { _controller: MaisonLiguesCroisiereBundle:Default:ajoutSecteur }
+
+maison_ligues_croisiere_bateau:
+    pattern:  /bateau
+    defaults: { _controller: MaisonLiguesCroisiereBundle:Default:bateau }
+
+maison_ligues_croisiere_traversees:
+    pattern:  /traversees/{id}
+    defaults: { _controller: MaisonLiguesCroisiereBundle:Default:traversees }
+
+maison_ligues_croisiere_ports:
+    pattern:  /ports
+    defaults: { _controller: MaisonLiguesCroisiereBundle:Default:ports }
+
+maison_ligues_croisiere_liaison:
+    pattern:  /liaison
+    defaults: { _controller: MaisonLiguesCroisiereBundle:Default:liaison }
+
+maison_ligues_croisiere_reservation:
+    pattern:  /reservation/{id}
+    defaults: { _controller: MaisonLiguesCroisiereBundle:Reservation:reservation }
+
+maison_ligues_croisiere_lesTraversees:
+    pattern:  /lesTraversees/{id}/{date}
+    defaults: { _controller: MaisonLiguesCroisiereBundle:Traversee:lesTraversees }
+
+maison_ligues_croisiere_choixTraversee:
+    pattern:  /choixTraversee
+    defaults: { _controller: MaisonLiguesCroisiereBundle:Traversee:choixTraversee }
+
+maison_ligues_croisiere_tarifs:
+    pattern:  /tarifs/{id}
+    defaults: { _controller: MaisonLiguesCroisiereBundle:Reservation:tarifs }
+
+

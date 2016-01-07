@@ -1,0 +1,14 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: localhost
+    database_port: null
+    database_name: ppe_croisieres
+    database_user: root
+    database_password: null
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: fr
+    secret: b0ab45d57148ae9e97b77e1d80da99e546b0ac3e
+    database_path: null

@@ -1,0 +1,7 @@
+test_first:
+    resource: "@TestFirstBundle/Resources/config/routing.yml"
+    prefix:   /test
+
+maison_ligues_croisiere:
+    resource: "@MaisonLiguesCroisiereBundle/Resources/config/routing.yml"
+    prefix:   /croisiere

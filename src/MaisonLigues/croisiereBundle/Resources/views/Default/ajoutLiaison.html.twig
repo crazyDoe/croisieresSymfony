@@ -1,0 +1,33 @@
+{% extends 'MaisonLiguesCroisiereBundle:Default:base.html.twig' %}
+{% block corps %}
+<div id="page-wrapper">
+	<div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Ajout d'une liaison</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+    </div>
+<form class="col-sm-4" method="post" role="form">
+	<div class="form-group">
+	{{form_start(form)}}
+		<div class="form-group">
+			<label> Distance : </label>{{ form_widget(form.distance) }}
+			<p class="help-block"> Ex : Titanic </p>
+		</div>
+		<div class="form-group">
+			<label> Secteur : </label>{{ form_widget(form.leSecteur) }}
+			<p class="help-block"> Ex : Titanic </p>
+		</div>
+		<div class="form-group">
+			<label> Port de Départ : </label>{{ form_widget(form.leDepart) }}
+			<p class="help-block"> Ex : Titanic </p>
+		</div>
+		<div class="form-group">
+			<label> Port d'Arrivée: </label>{{ form_widget(form.lArrive) }}
+			<p class="help-block"> Ex : Titanic </p>
+		</div>
+	{{ form_end(form) }}
+	<input class="form-control" type='submit' value='Créer Liaison'/>
+	</div>
+</form>
+{% endblock %}

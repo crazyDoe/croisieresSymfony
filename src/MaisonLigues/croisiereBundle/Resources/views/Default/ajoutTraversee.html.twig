@@ -1,0 +1,8 @@
+{% extends 'MaisonLiguesCroisiereBundle:Default:base.html.twig' %}
+{% block corps %}
+<h2> ajout d'une Traversée : </h2>
+<form action="{{path('maison_ligues_croisiere_ajoutTraversee')}}" method='post'>
+	{{ form_widget(form)}}
+	<input type='submit' value='Créer Traversée'/>
+</form>
+{% endblock %}
